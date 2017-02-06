@@ -34,3 +34,22 @@ img {
 .nav-list__item {
   margin: 0.5rem 1rem;
 }
+
+.section {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: calc(100% / 4 - 2rem);
+
+}
