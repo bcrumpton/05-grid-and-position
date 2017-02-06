@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
 }
 
 ul {
@@ -22,7 +23,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.1rem 0.5rem;
 }
 
 .nav-list {
@@ -45,11 +46,32 @@ img {
 }
 
 .grid {
+  margin: 2rem;
   display: flex;
   flex-wrap: wrap;
 }
 
-.card {
-  flex-basis: calc(100% / 4 - 2rem);
+.grid__item {
+  flex-basis: calc(100% / 2 - 2rem);
+  box-shadow: 0.2rem 0.2rem 0.3rem gray;
+  padding: 0.1rem;
+  margin: 1rem;
+}
 
+.card {
+  margin: 0;
+}
+
+.card__head {
+  background: wheat;
+}
+
+.card__head h2 {
+  background: wheat;
+  margin: 0;
+  padding: 3rem;
+}
+
+.card__body {
+  padding: 2rem;
 }
