@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -14,4 +14,23 @@ ul {
 
 img {
   max-width: 100%;
+}
+
+.navbar {
+  background: salmon;
+  color: #fefefe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  margin: -0.5rem -1rem;
+}
+
+.nav-list__item {
+  margin: 0.5rem 1rem;
 }
