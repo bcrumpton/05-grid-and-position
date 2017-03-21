@@ -46,15 +46,17 @@ img {
 }
 
 .grid {
-  margin: 2rem;
+  margin: 2rem ;
   display: flex;
   flex-wrap: wrap;
 }
 
 .grid__item {
   flex-basis: calc(100% / 2 - 4rem);
+  flex-grow: 1;
+  min-width: 15rem;
   box-shadow: 0.2rem 0.2rem 0.3rem gray;
-  margin: 2rem 2rem;
+  margin: 2rem;
 }
 
 .card {
@@ -75,12 +77,12 @@ img {
 .card__head--tag {
   margin: 0;
   position: absolute;
-  top: -20%;
+  top: 0;
   left: 50%;
   background: salmon;
   color: white;
   padding: 1rem;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   box-shadow: 0.2rem 0.2rem 0.3rem gray;
 }
 
@@ -90,8 +92,9 @@ img {
   box-shadow: 0.2rem 0.2rem 0.3rem gray;
   position: absolute;
   top: 50%;
-  left: -6.5%;
-  transform: translateY(-50%);
+  left: 0;
+  transform: translate(-50%, -50%);
+  margin: 0;
 }
 
 .card__body {
